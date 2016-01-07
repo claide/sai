@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-        <title>Dashboard</title>
+        <title>Checklists</title>
             <!-- Bootstrap css CDN -->
             <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
             <!-- MetisMenu CSS -->
@@ -56,7 +56,7 @@
                         <li><a href="#"><i class="fa fa-users fa-fw"></i> Users<span class="fa fa-angle-down arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li><a href="add.html">Create New</a></li>
-                                <li class="active"><a href="users.html">View List</a></li>
+                                <li><a href="users.html">View List</a></li>
                             </ul>
                             <!-- /.nav-second-level -->
                         </li>
@@ -88,7 +88,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="page-header">Users</h1>
+                        <h1 class="page-header">Checklists</h1>
                     </div>
                     <!-- /.col-lg-12 -->
                 </div>
@@ -97,7 +97,8 @@
                     <div class="col-sm-4">
                         <!-- Single button -->
                         <div class="btn-group">
-                          <button type="button" class="btn btn-default dropdown-toggle custom-btn-default" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <button type="button" class="btn btn-default dropdown-toggle custom-btn-default" 
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Bulk Action <i class="fa fa-chevron-down"></i>
                           </button>
                           <ul class="dropdown-menu">
@@ -134,7 +135,7 @@
                     <div class="col-lg-12">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                Users Table
+                                Checklists
                             </div>
                             <!-- /.panel-heading -->
                             <div class="panel-body">
@@ -142,146 +143,122 @@
                                     <table class="table table-hover">
                                         <thead>
                                             <tr>
-                                                <th>Username / Company</th>
-                                                <th>Email Address</th>
-                                                <th>Contact No.</th>
+                                                <th>ID</th>
+                                                <th>Title</th>
+                                                <th>No. of Users</th>
+                                                <th>Status</th>
+                                                <th>Date Created</th>
                                                 <th>Actions</th>
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr class="gradeA">
-                                                <td>Presto</td>
-                                                <td>mail@mail.com</td>
-                                                <td>323351321</td>
-                                                <td class="center">
-                                                    <a href="add.html"><i class="fa fa-file"></i></a>
-                                                     | <a href="" title="Remove Data"><i class="fa fa-trash"></i></a>
-                                                </td>
-                                                </td>
-                                            </tr>
-                                            <tr class="gradeC">
-                                                <td>KHTML</td>
-                                                <td>mail@mail.com</td>
-                                                <td>32321321</td>
-                                                <td class="center">
-                                                    <a href="add.html"><i class="fa fa-file"></i></a>
+                                            <tr>
+                                                <td>321</td>
+                                                <td>Title1</td>
+                                                <td>10</td>
+                                                <td>Status</td>
+                                                <td>Jan. 4, 2016</td>
+                                                 <td class="center">
+                                                    <a href="viewdoc.html" title="View Data"><i class="fa fa-file"></i></a>
                                                      | <a href="" title="Remove Data"><i class="fa fa-trash"></i></a>
                                                 </td>
                                             </tr>
-                                            <tr class="gradeA">
-                                                <td>KHTML</td>
-                                                <td>mail@mail.com</td>
-                                                <td>31321321</td>
-                                                <td class="center">
-                                                    <a href="add.html"><i class="fa fa-file"></i></a>
+                                            <tr>
+                                                <td>321</td>
+                                                <td>Title1</td>
+                                                <td>10</td>
+                                                <td>Status</td>
+                                                <td>Jan. 4, 2016</td>
+                                                 <td class="center">
+                                                    <a href="viewdoc.html" title="View Data"><i class="fa fa-file"></i></a>
                                                      | <a href="" title="Remove Data"><i class="fa fa-trash"></i></a>
                                                 </td>
                                             </tr>
-                                            <tr class="gradeA">
-                                                <td>KHTML</td>
-                                                <td>mail@mail.com</td>
-                                                <td>21212313</td>
-                                                <td class="center">
-                                                    <a href="add.html"><i class="fa fa-file"></i></a>
+                                            <tr>
+                                                <td>321</td>
+                                                <td>Title1</td>
+                                                <td>10</td>
+                                                <td>Status</td>
+                                                <td>Jan. 4, 2016</td>
+                                                 <td class="center">
+                                                    <a href="viewdoc.html" title="View Data"><i class="fa fa-file"></i></a>
                                                      | <a href="" title="Remove Data"><i class="fa fa-trash"></i></a>
                                                 </td>
                                             </tr>
-                                            <tr class="gradeX">
-                                                <td>Tasman</td>
-                                                <td>mail@mail.com</td>
-                                                <td>321321231</td>
-                                                <td class="center">
-                                                    <a href="add.html"><i class="fa fa-file"></i></a>
+                                            <tr>
+                                                <td>321</td>
+                                                <td>Title1</td>
+                                                <td>10</td>
+                                                <td>Status</td>
+                                                <td>Jan. 4, 2016</td>
+                                                 <td class="center">
+                                                    <a href="viewdoc.html" title="View Data"><i class="fa fa-file"></i></a>
                                                      | <a href="" title="Remove Data"><i class="fa fa-trash"></i></a>
                                                 </td>
                                             </tr>
-                                            <tr class="gradeC">
-                                                <td>Tasman</td>
-                                                <td>mail@mail.com</td>
-                                                <td>21231320</td>
-                                                <td class="center">
-                                                    <a href="add.html"><i class="fa fa-file"></i></a>
+                                            <tr>
+                                                <td>321</td>
+                                                <td>Title1</td>
+                                                <td>10</td>
+                                                <td>Status</td>
+                                                <td>Jan. 4, 2016</td>
+                                                 <td class="center">
+                                                    <a href="viewdoc.html" title="View Data"><i class="fa fa-file"></i></a>
                                                      | <a href="" title="Remove Data"><i class="fa fa-trash"></i></a>
                                                 </td>
                                             </tr>
-                                            <tr class="gradeC">
-                                                <td>Tasman</td>
-                                                <td>mail@mail.com</td>
-                                                <td>5454151</td>
-                                                <td class="center">
-                                                    <a href="add.html"><i class="fa fa-file"></i></a>
+                                            <tr>
+                                                <td>321</td>
+                                                <td>Title1</td>
+                                                <td>10</td>
+                                                <td>Status</td>
+                                                <td>Jan. 4, 2016</td>
+                                                 <td class="center">
+                                                    <a href="viewdoc.html" title="View Data"><i class="fa fa-file"></i></a>
                                                      | <a href="" title="Remove Data"><i class="fa fa-trash"></i></a>
                                                 </td>
                                             </tr>
-                                            <tr class="gradeA">
-                                                <td>Misc</td>
-                                                <td>mail@mail.com</td>
-                                                <td>54515123265</td>
-                                                <td class="center">
-                                                    <a href="add.html"><i class="fa fa-file"></i></a>
+                                            <tr>
+                                                <td>321</td>
+                                                <td>Title1</td>
+                                                <td>10</td>
+                                                <td>Status</td>
+                                                <td>Jan. 4, 2016</td>
+                                                 <td class="center">
+                                                    <a href="viewdoc.html" title="View Data"><i class="fa fa-file"></i></a>
                                                      | <a href="" title="Remove Data"><i class="fa fa-trash"></i></a>
                                                 </td>
                                             </tr>
-                                            <tr class="gradeA">
-                                                <td>Misc</td>
-                                                <td>mail@mail.com</td>
-                                                <td>5525660021</td>
-                                                <td class="center">
-                                                    <a href="add.html"><i class="fa fa-file"></i></a>
+                                            <tr>
+                                                <td>321</td>
+                                                <td>Title1</td>
+                                                <td>10</td>
+                                                <td>Status</td>
+                                                <td>Jan. 4, 2016</td>
+                                                 <td class="center">
+                                                    <a href="viewdoc.html" title="View Data"><i class="fa fa-file"></i></a>
                                                      | <a href="" title="Remove Data"><i class="fa fa-trash"></i></a>
                                                 </td>
                                             </tr>
-                                            <tr class="gradeX">
-                                                <td>Misc</td>
-                                                <td>mail@mail.com</td>
-                                                <td>51210062</td>
-                                                <td class="center">
-                                                    <a href="add.html"><i class="fa fa-file"></i></a>
+                                            <tr>
+                                                <td>321</td>
+                                                <td>Title1</td>
+                                                <td>10</td>
+                                                <td>Status</td>
+                                                <td>Jan. 4, 2016</td>
+                                                 <td class="center">
+                                                    <a href="viewdoc.html" title="View Data"><i class="fa fa-file"></i></a>
                                                      | <a href="" title="Remove Data"><i class="fa fa-trash"></i></a>
                                                 </td>
                                             </tr>
-                                            <tr class="gradeX">
-                                                <td>Misc</td>
-                                                <td>mail@mail.com</td>
-                                                <td>51231231</td>
-                                                <td class="center">
-                                                    <a href="add.html"><i class="fa fa-file"></i></a>
-                                                     | <a href="" title="Remove Data"><i class="fa fa-trash"></i></a>
-                                                </td>
-                                            </tr>
-                                            <tr class="gradeX">
-                                                <td>Misc</td>
-                                                <td>mail@mail.com</td>
-                                                <td>51231231</td>
-                                                <td class="center">
-                                                    <a href="add.html"><i class="fa fa-file"></i></a>
-                                                     | <a href="" title="Remove Data"><i class="fa fa-trash"></i></a>
-                                                </td>
-                                            </tr>
-                                            <tr class="gradeC">
-                                                <td>Misc</td>
-                                                <td>mail@mail.com</td>
-                                                <td>66620063</td>
-                                                <td class="center">
-                                                    <a href="add.html"><i class="fa fa-file"></i></a>
-                                                     | <a href="" title="Remove Data"><i class="fa fa-trash"></i></a>
-                                                </td>
-                                            </tr>
-                                            <tr class="gradeC">
-                                                <td>Misc</td>
-                                                <td>mail@mail.com</td>
-                                                <td>4412121</td>
-                                                <td class="center">
-                                                    <a href="add.html"><i class="fa fa-file"></i></a>
-                                                     | <a href="" title="Remove Data"><i class="fa fa-trash"></i></a>
-                                                </td>
-                                            </tr>
-                                            <tr class="gradeU">
-                                                <td>Other Company</td>
-                                                <td>mail@mail.com</td>
-                                                <td>21231231</td>
-                                                <td class="center">
-                                                    <a href="add.html"><i class="fa fa-file"></i></a>
+                                            <tr>
+                                                <td>321</td>
+                                                <td>Title1</td>
+                                                <td>10</td>
+                                                <td>Status</td>
+                                                <td>Jan. 4, 2016</td>
+                                                 <td class="center">
+                                                    <a href="viewdoc.html" title="View Data"><i class="fa fa-file"></i></a>
                                                      | <a href="" title="Remove Data"><i class="fa fa-trash"></i></a>
                                                 </td>
                                             </tr>

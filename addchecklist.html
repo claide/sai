@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <title>Add Checklist</title>
+            <!-- Bootstrap css CDN -->
+            <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+            <!-- Custom css -->
+            <link rel="stylesheet" href="css/custom.css">
+            <link rel="stylesheet" href="css/startmin.css">
+            <!-- Font awesome -->
+            <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="wrapper">
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Step Asia Inc</a>
+            </div>
+
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <ul class="nav navbar-center navbar-top-links">
+                <li><a href="index.html" title="Search"><i class="fa fa-search fa-fw"></i></a></li>
+                <li>
+                    <div class="btn-group">
+                    <button class="btn btn-link">
+                        <i class="fa fa-plus fa-fw" data-toggle="dropdown" title="Add"></i>
+                        <span class="sr-only">Toggle Dropdown</span>
+                      <ul class="dropdown-menu">
+                        <li><a href="add.html">Add User</a></li>
+                        <li><a href="addchecklist.html">Add Checklist</a></li>
+                      </ul>
+                      </button>
+                    </div>
+                </li>
+                <li><a href="index.html" title="History"><i class="fa fa-history fa-fw"></i></a></li>
+            </ul>
+
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+                        <li><a href="dashboard.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a></li>
+                        <li><a href="#"><i class="fa fa-users fa-fw"></i> Users<span class="fa fa-angle-down arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li class="active"><a href="add.html">Create New</a></li>
+                                <li><a href="users.html">View List</a></li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li><a href="#"><i class="fa fa-file-text-o fa-fw"></i> Documents / Files<span class="fa fa-angle-down arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li><a href="addchecklist.html">Create New</a></li>
+                                <li><a href="checklists.html">View List</a></li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li><a href="#"><i class="fa fa-pie-chart fa-fw"></i> Reports</a></li>
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i> Admin<span class="fa fa-angle-down arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li><a href="#">User Profile</a></li>
+                                <li><a href="#">Settings</a></li>
+                                <li><a href="#">Logout</a></li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+
+        <!-- Page Content -->
+        <div id="page-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                        <h3 class="page-header">Add New Checklist</h3>
+                </div>
+                <!-- /.row -->
+                <!-- Panels -->
+                <div class="row">
+                    <form class="form-horizontal">
+                          <div class="form-group">
+                            <label for="username" class="col-sm-2 control-label">ID</label>
+                            <div class="col-sm-10">
+                              <input type="text" class="form-control" id="checklistId" placeholder="ID" readonly>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="title" class="col-sm-2 control-label">Title</label>
+                            <div class="col-sm-10">
+                              <input type="text" class="form-control" id="checklistTitle" placeholder="Title">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                          <label for="status" class="col-sm-2 control-label">Status</label>
+                          <div class="col-sm-10">
+                            <select class="form-control" id="status">
+                                <option>- Select Status -</option>
+                                <option>Status 1</option>
+                                <option>Status 2</option>
+                                <option>Status 3</option>
+                                <option>Status 4</option>
+                            </select>
+                            </div>
+                          </div>
+                        <h3>Users</h3><hr>                              
+                          <div class="form-group">
+                            <div class="col-sm-2 text-right">
+                                <button type="button" class="btn custom-btn-default"><i class="fa fa-plus-circle"></i> Add Group</button>
+                            </div>
+                            <div class="col-sm-10">
+                              <input type="text" class="form-control" id="userGroup" placeholder="User group">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                              <button type="submit" class="btn custom-btn-default create">Create</button>
+                              <button type="button" class="btn custom-btn-error cancel">Cancel</button>
+                            </div>
+                          </div>
+                        </form>
+                </div>
+                <!-- /.panels -->
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<!-- Metis Menu Plugin JavaScript -->
+<script src="js/metisMenu.min.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="js/startmin.js"></script>
+<script>
+    $(function(){
+        $('.create').click(function(){
+            alert('User Successfully Added!')
+        });
+    });
+</script>
+</body>
+</html>

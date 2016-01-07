@@ -10,7 +10,7 @@ body {
 #page-wrapper {
     padding: 30px 15px 0 15px;
     min-height: 568px;
-    background-color: #fff;
+    background-color: #f4f4f5;
     color: #444444;
 }
 
@@ -70,7 +70,7 @@ body {
 }
 
 .navbar-top-links>li>a:hover, .navbar-top-links>li>a:focus, .navbar-top-links>.open>a, .navbar-top-links>.open>a:hover, .navbar-top-links>.open>a:focus {
-    color: #fff;
+    color: #f4f4f5;
     background-color: #222;
 }
 
@@ -126,7 +126,7 @@ body {
 
 .sidebar ul li a {
     background-color: #444444;
-    color: #fff;
+    color: #f4f4f5;
 }
 
 .sidebar li a:hover,
@@ -211,7 +211,7 @@ body {
 .btn-info.btn-outline:hover,
 .btn-warning.btn-outline:hover,
 .btn-danger.btn-outline:hover {
-    color: #fff;
+    color: #f4f4f5;
 }
 
 .chat {
@@ -342,7 +342,7 @@ table.dataTable thead .sorting:after {
 }
 
 .panel-footer {
-    background-color: #fff;
+    background-color: #f4f4f5;
 }
 
 /* Panel black*/
@@ -352,7 +352,7 @@ table.dataTable thead .sorting:after {
 
 .panel-black .panel-heading {
     border-color: #444444;
-    color: #fff;
+    color: #f4f4f5;
     background-color: #444444;
     border-radius: 0px;
 }
@@ -372,7 +372,7 @@ table.dataTable thead .sorting:after {
 
 .panel-green .panel-heading {
     border-color: #5cb85c;
-    color: #fff;
+    color: #f4f4f5;
     background-color: #5cb85c;
 }
 
@@ -390,7 +390,7 @@ table.dataTable thead .sorting:after {
 
 .panel-red .panel-heading {
     border-color: #d9534f;
-    color: #fff;
+    color: #f4f4f5;
     background-color: #d9534f;
 }
 
@@ -408,7 +408,7 @@ table.dataTable thead .sorting:after {
 
 .panel-yellow .panel-heading {
     border-color: #f0ad4e;
-    color: #fff;
+    color: #f4f4f5;
     background-color: #f0ad4e;
 }
 

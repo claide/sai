@@ -2,6 +2,10 @@
     border-radius: 0px;
 }
 
+html, body {
+    height: 100%;
+}
+
 .card-container.card {
     max-width: 350px;
     padding: 40px 40px;
@@ -32,18 +36,23 @@
     margin-bottom: 10%;
 }
 
-.btn {
+.btn-login {
     margin-top: 3%;
     border-radius: 0px;
-    background-color: #FF6347;
+    background-color: #ff6347;
 }
 
-.btn:hover {
+.btn-login:hover {
     background: #f94f31;
     color: #fff;
 }
 
-.custom-btn, .custom-btn:hover {
+/*Icon style*/
+.fa-gray {
+    color: #ccc;
+}
+
+.custom-btn-default, .custom-btn-default:hover {
     margin-top: 3%;
     border-radius: 0px;
     background-color: #fff;
@@ -51,6 +60,25 @@
     border-color: #a0a0a0;
 }
 
+.btn-link, .btn-link:hover {
+    border-color: transparent;
+    background-color: transparent;
+    color: #fff;
+}
+
+.btn-link-dark, .btn-link-dark:hover {
+    border-color: transparent;
+    background-color: transparent;
+    color: #555;
+}
+
+.custom-btn-error, .custom-btn-error:hover {
+    margin-top: 3%;
+    border-radius: 0px;
+    background-color: #d9534f;
+    color: #fff;
+    border-color: #d43f3a;
+}
 
 .form-signin input[type=password],
 .form-signin input[type=text],
@@ -77,3 +105,132 @@
     background-color: #444444 !important;
     border-radius: 0px;
 }
+
+.panel-title {
+    padding-top: 7.5px;
+}
+
+.panel-gray {
+    color: #555 !important;
+    background-color: #fff !important;
+    border-radius: 0px;
+}
+
+.list-group-item:first-child, .list-group-item:last-child {
+    border-radius: 0px;
+}
+
+/*Comment box*/
+.detailBox {
+    width: inherit;
+    border: 1px solid #f4f4f5;
+    margin: 5%;
+}
+
+.titleBox {
+    background-color: #fdfdfd;
+    padding: 10px;
+}
+
+.commentBox {
+    padding: 10px;
+    border-top: 1px solid #555;
+}
+
+.commentBox .form-group:first-child, .actionBox .form-group:first-child {
+    width:80%;
+}
+.commentBox .form-group:nth-child(2), .actionBox .form-group:nth-child(2) {
+    width:18%;
+}
+.actionBox .form-group * {
+    width:100%;
+}
+.taskDescription {
+    margin-top:10px 0;
+}
+.commentList {
+    padding:0;
+    list-style:none;
+    max-height:200px;
+    overflow:auto;
+}
+.commentList li {
+    margin:0;
+    margin-top:10px;
+}
+.commentList li > div {
+    display:table-cell;
+}
+.commenterImage {
+    width:30px;
+    margin-right:5px;
+    height:100%;
+    float:left;
+}
+.commenterImage img {
+    width:100%;
+    border-radius:50%;
+}
+.commentText p {
+    margin:0;
+}
+.sub-text {
+    color:#aaa;
+    font-family:verdana;
+    font-size:11px;
+}
+.actionBox {
+    padding:10px;
+}
+/*End Comment Box Style*/
+
+/*Section and Item List Style*/
+.just-padding {
+  padding: 15px;
+}
+
+.list-group.list-group-root {
+  padding: 0;
+  overflow: hidden;
+}
+
+.list-group.list-group-root .list-group {
+  margin-bottom: 0;
+}
+
+.list-group.list-group-root .list-group-item {
+  border-radius: 0;
+  border-width: 1px 0 0 0;
+}
+
+.list-group.list-group-root > .list-group-item:first-child {
+  border-top-width: 0;
+}
+
+.list-group.list-group-root > .list-group > .list-group-item {
+  padding-left: 30px;
+}
+
+.list-group.list-group-root > .list-group > .list-group > .list-group-item {
+  padding-left: 45px;
+}
+/*End Section and Item List Style*/
+
+.close {
+    color: #000;
+}
+
+.close:hover {
+    color: #ff6347;
+}
+
+/*Font Awesome Icon*/
+.fa-file, .fa-trash {
+    color: #555;
+}
+
+.fa-file:hover, .fa-trash:hover {
+    color: #337ab7;
+}
+/*End Font Awesome Icon*/
